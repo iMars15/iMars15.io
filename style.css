@@ -1,0 +1,101 @@
+.page {
+    display: none;
+}
+.page.show{
+    display: block;
+}
+body{
+    background-color: rgb(10, 10, 26);
+    
+}
+.head{
+    position: relative;
+}
+
+.head::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 105%;
+    height: 1px;
+    background-color: rgb(255, 0, 255);
+    box-shadow: rgb(255, 0, 255); 
+    border: 2px;
+}
+.butt1{
+    background-color: rgb(0,255,255);
+    width: 100px;
+    height: 15px;
+    border-radius: 5px;
+    border: none;
+}
+.butt2{
+    background-color: rgb(255,0,255);
+    width: 100px;
+    height: 15px;
+    border-radius: 5px;
+    border: none;
+}
+.butt3{
+    background-color: rgb(0,255,255);
+    width: 100px;
+    height: 15px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0 0 10px rgb(0,255 ,255);
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+.block1{
+    margin-top: 10px;
+    border: 2px solid rgb(0,255,255);
+    width: 480px;
+    height: 250px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(30,30,46);
+    color:  rgb(255,0,255);
+    box-shadow: 0 0 10px rgb(0,255 ,255);
+    
+}
+.block2{
+    margin-top: 10px;
+    width: 480px;
+    height: 250px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    color: rgb(0, 255, 255);
+    background-color: rgb(30,30,46);
+    box-shadow: 0 0 10px rgb(255, 0, 255);
+    border: 2px solid rgb(255, 0, 255)
+  
+}
+.blockImg {
+    width: 480px;
+    height: 550px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    color: rgb(0, 255, 255);
+    background-color: rgb(30,30,46);
+    box-shadow: 0 0 10px rgb(255, 0, 255);
+    border: 2px solid rgb(255, 0, 255);
+    margin: 5px;
+    margin-top: 15px;
+    
+    
+}
+.logo{
+    height: 60px;
+    border: 1px;
+    border-radius: 60px;
+}
+.picture{
+    width: 470px;
+    height: 540px;
+}
